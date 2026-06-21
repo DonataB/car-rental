@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
     <meta charset="UTF-8">
@@ -10,25 +10,24 @@
 
 <body>
     <header>
-        LOGO
-        TORENO
+        <p class="logo">TORENO</p>
         <nav>
             <ul>
-                <li><a href="#">Oferta</a></li>
-                <li><a href="#">Cennik</a></li>
-                <li><a href="#">Kontakt</a></li>
+                <li><a href="#offer">Oferta</a></li>
+                <li><a href="#pricing">Cennik</a></li>
+                <li><a href="#contact">Kontakt</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="hero">
+        <section id="hero" class="hero">
             <h1>Wypożycz samochód szybko i wygodnie</h1>
             <p>Nowe auta | Atrakcyjne ceny | 24/7</p>
             <p>Nowoczesna flota samochodów dostępna od ręki.</p>
             <button>Zobacz ofertę</button>
             <!-- tu będzie zdjęcie auta -->
         </section>
-        <section class="offer">
+        <section id="offer" class="offer">
             <h2>Nasza flota</h2>
             <article class="car">
                 <h3>Toyota Aygo</h3>
@@ -60,62 +59,98 @@
                 <p>Premium</p>
                 <p>Od 299 zł/dzień</p>
             </article>
+            <section id="pricing" class="pricing">
+                <h2>Cennik</h2>
 
-        </section>
-        <section class="whyus">
-            <h2>Dlaczego my?</h2>
-            <ul>
-                <li>Dostępność 24/7</li>
-                <li>Nowe i zadbane auta</li>
-                <li>Szybka rezerwacja</li>
-                <li>Proste zasady wynajmu</li>
-            </ul>
-        </section>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Model</th>
+                            <th>Kategoria</th>
+                            <th>Cena od</th>
+                        </tr>
+                    </thead>
 
-        <section class="howitworks">
-            <h2>Jak to działa?</h2>
-            <ol>
-                <li>Wybierz samochód</li>
-                <li>Zarezerwuj online</li>
-                <li>Odbierz auto</li>
-            </ol>
-        </section>
-        <section class="opinions">
-            <h2>Co mówią nasi klienci?</h2>
-            <article class="opinion">
-                <h3>Marek Wiśniewski</h3>
-                <p>Wynająłem u nich eleganckie auto premium na spotkanie biznesowe i pojazd zrobił ogromne wrażenie na
-                    moich klientach, a lokalna obsługa zadbała o każdy detal i podstawienie pod wskazany adres.</p>
-            </article>
-            <article class="opinion">
-                <h3>Karolina Nowak</h3>
-                <p>Potrzebowaliśmy bezpiecznego SUV-a na rodzinny weekend w górach i dostaliśmy nowoczesny, doskonale
-                    wyposażony samochód, który idealnie poradził sobie w trudniejszych warunkach drogowych.</p>
-            </article>
-            <article class="opinion">
-                <h3>Tomasz Kowalski</h3>
-                <p>Kiedy moje prywatne auto trafiło do warsztatu, ta lokalna wypożyczalnia błyskawicznie zaoferowała mi
-                    zwrotne auto miejskie, którym bez problemu parkowałem w ciasnych centrach handlowych.</p>
-            </article>
-            <article class="opinion">
-                <h3>Anna Borowska</h3>
-                <p>Ich flota robi wrażenie, bo mają świetny przekrój od małych aut miejskich po luksusowe suvy, a jasne
-                    zasady i brak ukrytych kosztów sprawiają, że to moja ulubiona wypożyczalnia w regionie.</p>
-            </article>
+                    <tbody>
+                        <tr>
+                            <td>Toyota Aygo</td>
+                            <td>Miejskie</td>
+                            <td>99 zł</td>
+                        </tr>
 
-        </section>
+                        <tr>
+                            <td>Kia Sportage</td>
+                            <td>SUV</td>
+                            <td>199 zł</td>
+                        </tr>
 
-        <section class="contact">
-            <h2>Kontakt</h2>
-            <p>Telefon: 123 456 789</p>
-            <p>Email: kontakt@toreno.pl</p>
-            <p>Białystok</p>
+                        <tr>
+                            <td>Audi A6</td>
+                            <td>Premium</td>
+                            <td>299 zł</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
 
-        </section>
+            <section id="whyus" class="whyus">
+                <h2>Dlaczego my?</h2>
+                <ul>
+                    <li>Dostępność 24/7</li>
+                    <li>Nowe i zadbane auta</li>
+                    <li>Szybka rezerwacja</li>
+                    <li>Proste zasady wynajmu</li>
+                </ul>
+            </section>
+
+            <section id="howitworks" class="howitworks">
+                <h2>Jak to działa?</h2>
+                <ol>
+                    <li>Wybierz samochód</li>
+                    <li>Zarezerwuj online</li>
+                    <li>Odbierz auto</li>
+                </ol>
+            </section>
+            <section id="opinions" class="opinions">
+                <h2>Co mówią nasi klienci?</h2>
+                <article class="opinion">
+                    <h3>Marek Wiśniewski</h3>
+                    <p>Wynająłem u nich eleganckie auto premium na spotkanie biznesowe i pojazd zrobił ogromne wrażenie
+                        na
+                        moich klientach, a lokalna obsługa zadbała o każdy detal i podstawienie pod wskazany adres.</p>
+                </article>
+                <article class="opinion">
+                    <h3>Karolina Nowak</h3>
+                    <p>Potrzebowaliśmy bezpiecznego SUV-a na rodzinny weekend w górach i dostaliśmy nowoczesny,
+                        doskonale
+                        wyposażony samochód, który idealnie poradził sobie w trudniejszych warunkach drogowych.</p>
+                </article>
+                <article class="opinion">
+                    <h3>Tomasz Kowalski</h3>
+                    <p>Kiedy moje prywatne auto trafiło do warsztatu, ta lokalna wypożyczalnia błyskawicznie zaoferowała
+                        mi
+                        zwrotne auto miejskie, którym bez problemu parkowałem w ciasnych centrach handlowych.</p>
+                </article>
+                <article class="opinion">
+                    <h3>Anna Borowska</h3>
+                    <p>Ich flota robi wrażenie, bo mają świetny przekrój od małych aut miejskich po luksusowe suvy, a
+                        jasne
+                        zasady i brak ukrytych kosztów sprawiają, że to moja ulubiona wypożyczalnia w regionie.</p>
+                </article>
+
+            </section>
+
+            <section id="contact" class="contact">
+                <h2>Kontakt</h2>
+                <p>Telefon: 123 456 789</p>
+                <p>Email: kontakt@toreno.pl</p>
+                <p>Białystok</p>
+
+            </section>
 
     </main>
     <footer>
-       <p>&copy; 2026 Toreno</p>
+        <p>&copy; 2026 Toreno</p>
     </footer>
 
 </body>
